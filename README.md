@@ -22,4 +22,4 @@ To be able to execute the 'run_analysis.R' script, this script should be placed 
 
 These files can be obtained from this URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-
+An example of the output produced by the 'run_analysis.R' script has been exported to the file 'myTidyData.txt'.
