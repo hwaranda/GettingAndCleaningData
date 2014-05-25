@@ -83,3 +83,38 @@ It has been considered only the measurements on the mean and standard deviation 
 
 
 ## Steps performed to to clean up the data
+
+Step 1: Merging the test and training sets to create one data set
+
+* Reading test Subject
+* Reading test Labels
+* Reading test data
+* Creating a single dataset for test
+
+* Reading train Subject
+* Reading train Labels
+* Reading train data
+* Creating a single dataset for train
+
+* Creating a single dataset for test and train
+
+Step 2: Extracting only the measurements on the mean and standard deviation for each measurement
+
+* Reading features
+* Getting indexes for features related to mean()
+* Getting indexes for features related to std()
+* Creating a single list of valid indexes
+* Getting a valid dataset with information for valid features only
+
+Step 3: Using descriptive activity names to name the activities in the data set
+* Reading activity labels
+* Replacing Labels by Activity names
+
+Step 4: Appropriately labels the data set with descriptive activity names.
+* Getting the list of features for the valid indexes
+* Replacing the names of features columns
+
+Step 5: Creating tidy data
+* Getting the list of factors to be used as measure variables
+* Appliying melt to convert to long-format
+* Appliying dcast to get the mean of each factor by activity and subject
