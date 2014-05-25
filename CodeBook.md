@@ -1,4 +1,4 @@
-# List of variables
+## List of variables
 |    | Variable                    |
 |----|-----------------------------|
 | 1  | Activity                    |
@@ -70,6 +70,6 @@
 | 67 | fBodyBodyGyroJerkMag-mean() |
 | 68 | fBodyBodyGyroJerkMag-std()  |
 
-# The data
+## The data
 
-# Steps performed to to clean up the data
+## Steps performed to to clean up the data
