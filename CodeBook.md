@@ -8,6 +8,8 @@ The data set used for this course projects is a subset of data collected from ex
 
 
 ## List of variables
+It has been considered only the measurements on the mean and standard deviation for each measurement provided in the original data set from the experiments.
+
 |    | Variable                    |
 |----|-----------------------------|
 | 1  | Activity                    |
