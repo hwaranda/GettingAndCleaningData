@@ -1,3 +1,17 @@
+## Data Set Information:
+The data set used for this course projects comes from data collected from experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+###For each record it is provided:
+
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
+
+
 ## List of variables
 |    | Variable                    |
 |----|-----------------------------|
@@ -70,6 +84,5 @@
 | 67 | fBodyBodyGyroJerkMag-mean() |
 | 68 | fBodyBodyGyroJerkMag-std()  |
 
-## The data
 
 ## Steps performed to to clean up the data
