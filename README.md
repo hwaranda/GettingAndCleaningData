@@ -20,5 +20,6 @@ To be able to execute the 'run_analysis.R' script, this script should be placed 
 * features.txt
 * activity_labels.txt
 
+These files can be obtained from this URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
